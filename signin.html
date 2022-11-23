@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Register form</title>
+</head>
+<body>
+    <nav class="navbar navber-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">Home</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="signin.html">Sign in</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="main.html">Main</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <h1>Register form</h1>
+    <p>Please, fill the registration form</p>
+    <form>
+        <fieldset>
+            <label for="firstname">
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="lastname">
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="password">
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="phone">
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </label>
+        </fieldset>
+        <br> <br>
+        <fieldset>
+            <label for="date">
+                <input type="date" id="date" name="date" placeholder="Enter your birth date
+            </label>">
+        </fieldset>
+        <br> 
+        <fieldset>
+            <label for="male">
+                <input type="radio" id="male" name="gender">Male
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="gender">Female
+            </label>
+        </fieldset>
+        <br>  
+
+        <fieldset>
+            <select name="city" id>
+                <option value="astana">Astana</option>
+                <option value="almaty">Almaty</option>
+                <option value="shym">Shymkent</option>
+                <option value="kzo">Kyzylorda</option>
+                <option value="krg">Karaganda</option>
+                <option value="trz">Taraz</option>
+                <option value="aktau">Aktau</option>
+                <option value="atyrau">Atyrau</option>
+                <option value="aktobe">Aktobe</option>
+                <option value="tldk">Taldykorgan</option>
+                <option value="turk">Turkestan</option>
+            </select>
+
+        </fieldset>
+        <br> 
+        <fieldset>
+            <legend>Choose your hobbi(one or more)</legend>
+            <label for="interests">
+                <input type="checkbox" name="interests" id="interests">painting
+            </label><br>
+            <label for="interests">
+                <input type="checkbox" name="interests" id="interests">singing
+            </label><br>
+            <label for="interests">
+                <input type="checkbox" name="interests" id="interests">dancing
+            </label><br>
+            <label for="interests">
+                <input type="checkbox" name="interests" id="interests">reading
+            </label><br>
+            <label for="interests">
+                <input type="checkbox" name="interests" id="interests">designing
+            </label><br>
+            <label for="interests">
+                <input type="checkbox" name="interests" id="interests">coding
+            </label><br>
+        </fieldset>
+        <button><a href="login.html">sign up</a></button>
+    </form>
+</body>
+</html>
